@@ -49,6 +49,9 @@
        points = points + 0;
      }
      button.classList.add("run-animation");
+    if (count < 200){
+     PlaySound()
+    }
      update();
      count++;
    }
@@ -199,7 +202,7 @@
    </div>
  </div>
  <br>
- <img id="button" src="https://i.imgur.com/RdS3HoF.png" onClick="add(); PlaySound()" width="91" height="113"/>
+ <img id="button" src="https://i.imgur.com/RdS3HoF.png" onClick="add();" width="91" height="113"/>
  <br>
  <div id="outside-notif" align="center">
    <div id="notif" align="center" >
